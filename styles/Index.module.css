@@ -1,0 +1,18 @@
+.title {
+  text-transform: capitalize;
+}
+
+.button {
+  padding: 0.8rem;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
