@@ -9,10 +9,9 @@ const Header = () => {
       </h1>
       <p className={styles.description}>A sample site to test/demo Nextjs</p>
       <p className={styles.note}>
-        Home page uses SSG (getStaticProps) to render below 6 articles, when
+        Home page uses SSG (getStaticProps) to render the 6 articles below, when
         click into the article page, it uses SSR (getServerSideProps) to
-        retrieve the details of the article by article id (which the id can be
-        more than 6).
+        retrieve the article details by id (the id can be more than 6).
       </p>
     </div>
   );
